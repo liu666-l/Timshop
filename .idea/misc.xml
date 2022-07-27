@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/gateway-web/pom.xml" />
         <option value="$PROJECT_DIR$/service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service-canal/pom.xml" />
         <option value="$PROJECT_DIR$/service/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/timshop1/pom.xml" />
       </set>

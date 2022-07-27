@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="service-goods-api" />
-        <module name="webs" />
+        <module name="web-search" />
         <module name="service-canal" />
         <module name="user-oauth" />
         <module name="service-search-api" />
@@ -26,6 +26,7 @@
         <module name="service-goods" />
         <module name="service-seckill" />
         <module name="getway-api" />
+        <module name="content-api" />
         <module name="service-file" />
         <module name="service-wechatpay-api" />
         <module name="service-wechatpay" />
@@ -33,6 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gateway-web" target="8" />
+      <module name="service-canal" target="8" />
       <module name="service-search" target="8" />
       <module name="timshop1" target="8" />
     </bytecodeTargetLevel>
@@ -42,6 +44,7 @@
       <module name="Timshop" options="-parameters" />
       <module name="commom" options="-parameters" />
       <module name="commom-db" options="-parameters" />
+      <module name="content-api" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway-web" options="-parameters" />
       <module name="getway" options="" />
@@ -64,7 +67,7 @@
       <module name="service-wechatpay-api" options="-parameters" />
       <module name="timshop1" options="-parameters" />
       <module name="user-oauth" options="-parameters" />
-      <module name="webs" options="-parameters" />
+      <module name="webs" options="" />
     </option>
   </component>
 </project>

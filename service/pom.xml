@@ -20,7 +20,6 @@
         <module>service-user</module>
         <module>service-wechatpay</module>
         <module>service-file</module>
-
     </modules>
 
     <properties>

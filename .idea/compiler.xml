@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
+        <module name="service-goods-api" />
+        <module name="webs" />
+        <module name="service-canal" />
+        <module name="user-oauth" />
+        <module name="service-search-api" />
+        <module name="service-user-api" />
+        <module name="service-order" />
+        <module name="service-content" />
+        <module name="commom-db" />
+        <module name="gateway-web" />
+        <module name="service-seckill-api" />
+        <module name="gateway-webs" />
+        <module name="service-searchs" />
+        <module name="commom" />
+        <module name="service-user" />
+        <module name="service-order-api" />
+        <module name="service-goods" />
+        <module name="service-seckill" />
+        <module name="getway-api" />
+        <module name="service-file" />
+        <module name="service-wechatpay-api" />
+        <module name="service-wechatpay" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway-web" target="8" />
+      <module name="service-search" target="8" />
+      <module name="timshop1" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Timshop" options="-parameters" />
+      <module name="commom" options="-parameters" />
+      <module name="commom-db" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="gateway-web" options="-parameters" />
+      <module name="getway" options="" />
+      <module name="getway-api" options="-parameters" />
+      <module name="service" options="" />
+      <module name="service-api" options="" />
+      <module name="service-content" options="-parameters" />
+      <module name="service-file" options="-parameters" />
+      <module name="service-goods" options="-parameters" />
+      <module name="service-goods-api" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-order-api" options="-parameters" />
+      <module name="service-search-api" options="-parameters" />
+      <module name="service-searchs" options="-parameters" />
+      <module name="service-seckill" options="-parameters" />
+      <module name="service-seckill-api" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="service-user-api" options="-parameters" />
+      <module name="service-wechatpay" options="-parameters" />
+      <module name="service-wechatpay-api" options="-parameters" />
+      <module name="timshop1" options="-parameters" />
+      <module name="user-oauth" options="-parameters" />
+      <module name="webs" options="-parameters" />
+    </option>
+  </component>
+</project>

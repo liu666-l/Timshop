@@ -1,0 +1,34 @@
+server:
+  port: 18085
+spring:
+  application:
+    name: search
+  data:
+    elasticsearch:
+      cluster-name: my-application        # 集群节点的名称，就是在es的配置文件中配置的
+      cluster-nodes: 8.130.25.2:9300  # 这里用的是TCP端口所以是9300
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  application:
+  name: goods
+  hystrix:
+    enabled: true
+#超时配置
+ribbon:
+  ReadTimeout: 500000   # Feign请求读取数据超时时间
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000   # feign连接超时时间
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Timshop</artifactId>
+        <groupId>com.tm.xl</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>service-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>service-order-api</module>
+        <module>service-goods-api</module>
+        <module>service-search-api</module>
+        <module>service-seckill-api</module>
+        <module>service-user-api</module>
+        <module>service-wechatpay-api</module>
+        <module>content-api</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>persistence-api</artifactId>
+        <version>1.0</version>
+    </dependency>
+    <dependency>
+        <groupId>io.swagger</groupId>
+        <artifactId>swagger-annotations</artifactId>
+        <version>1.5.22</version>
+    </dependency>
+    <dependency>
+        <groupId>com.tm.xl</groupId>
+        <artifactId>commom</artifactId>
+        <version>0.0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+    </dependency>
+</dependencies>
+</project>

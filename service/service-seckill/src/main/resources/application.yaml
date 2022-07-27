@@ -1,0 +1,58 @@
+server:
+  port: 18091
+spring:
+  application:
+    name: seckill
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+          strategy: SEMAPHORE
+
+logging:
+  level:
+    com: debug  # 不加这个MyBatis Log插件不打印sql语句
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+mq:
+  pay:
+    exchange:
+      seckillorder: exchange.seckillorder
+    queue:
+      seckillorder: queue.seckillorder
+    routing:
+      seckillkey: routing.seckillorder

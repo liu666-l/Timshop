@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bd4abb4-8a64-4a64-935c-9b65d6f06041" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CCeZ1oud1vhtlIykKnU37VzidY" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-wechatpay/src/main/resources" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.1112347" />
+    <property name="project.structure.side.proportion" value="0.40675846" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service\service-wechatpay\src\main\resources" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service\service-wechatpay\src\main\java\com\config" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service\service-user\src\main\resources" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service\service-user\src\main\java\com\user" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service\service-seckill\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service-api" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\service" />
+      <recent name="D:\devSoft\20220107LnGubvPW (1)\NewFlight\Timshop\eureka\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wechatpay.fegin" />
+      <recent name="com" />
+      <recent name="entity" />
+      <recent name="com.lister" />
+      <recent name="com.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Timshop">
+    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-content" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tim.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-file" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="FileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-goods" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-searchs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Timshop" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Timshop" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeChatPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-wechatpay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.WeChatPayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3bd4abb4-8a64-4a64-935c-9b65d6f06041" name="变更" comment="" />
+      <created>1658311049791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658311049791</updated>
+      <workItem from="1658311052742" duration="2688000" />
+      <workItem from="1658804010003" duration="19261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

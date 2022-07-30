@@ -41,7 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Timshop" options="-parameters" />
+      <module name="Timshop" options="" />
       <module name="commom" options="-parameters" />
       <module name="commom-db" options="-parameters" />
       <module name="content-api" options="-parameters" />
